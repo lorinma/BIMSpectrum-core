@@ -1,0 +1,1 @@
+git clone https://github.com/lorinma/BIMSpectrum-core.git --recursive; cd BIMSpectrum-core/stepcode/; mkdir build; cd build; cmake -DSC_BUILD_SCHEMAS="/home/ling/Projects/BIMSpectrum-core/stepcode/data/ifc4/IFC4.exp" -DSC_INSTALL_PREFIX="../../p21/" ../; make -j4 install 
